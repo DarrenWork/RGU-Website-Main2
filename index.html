@@ -5,7 +5,19 @@
     <link rel="stylesheet" href="assets/style.css">
    <title>Home</title>
 </head>
+
 <body>
+<--FACEBOOK JAVASCRIPT BEGINS HERE-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://rguwork.azurewebsites.net" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<--FACEBOOK CODE ENDS HERE-->
 <p align="center"><img src="assets/images/rgu.png" width="1500" height="300" alt="Banner" /></p>
 <table width="1250" border="5" align="center">
   <tr>
